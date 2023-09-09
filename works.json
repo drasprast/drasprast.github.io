@@ -1,7 +1,7 @@
 [
     {
         "title": "Booki" ,
-        "cover": "./img/booki.png",
+        "cover": "./img/booki.PNG",
         "comp": ["HTML", "CSS"],
         "description": "Au sein de ma formation chez OpenClassrooms, j'ai été assigné à la tâche d'intégrer la maquette du site web de l'agence Booki. L'intégration a été réalisée en utilisant uniquement du HTML et du CSS vanilla",
         "github": "https://github.com/drasprast/Projet_2.git"
@@ -10,7 +10,7 @@
      
     { 
         "title": "Mon vieux grimoire" ,
-        "cover": "./img/grimoire.png",
+        "cover": "./img/grimoire.PNG",
         "comp": ["NODEJS", "EXPRESSJS", "MONGODB"],
         "description": "J'ai eu l'occasion de vivre ma première expérience de développement backend pour un site web. Ma mission consistait à créer l'API et le serveur pour prendre en charge le frontend du site 'Mon Vieux Grimoire', qui permet aux utilisateurs de s'inscrire, d'ajouter des livres à leur collection et de les noter. J'ai réussi à mener à bien ce projet sans encombre.",
         "github": "https://github.com/drasprast/Projet_2.git"
