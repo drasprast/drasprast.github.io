@@ -3,25 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Après un temps passé dans l'armée, j'ai décidé de me reconvertir dans l'informatique. Le développement web m'a permis de découvrir une facette intéressante de ce domaine."
+    />
+    <meta property="og:title" content="Thomas Bilbault développeur web" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thomas Bilbault - Portfolio</title>
+    <link rel="shortcut icon" href="img/tb.jpg" />
+    <script
+      src="https://kit.fontawesome.com/5806bac3d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li>Compétence</li>
-          <li>Projets</li>
-          <li>Contact</li>
+        <ul class="nav-flex">
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <section>
+      <hr class="hr1" />
+      <section class="presentation">
         <h1>Bilbault Thomas</h1>
-        <p>Développeur web</p>
+        <h2>Développeur web</h2>
+        <p>
+          Après un temps passé dans l'armée, j'ai décidé de me reconvertir dans
+          l'informatique. Le développement web m'a permis de découvrir une
+          facette intéressante de ce domaine.
+        </p>
       </section>
+      <hr class="hr1" />
     </header>
 
-    <main></main>
+    <main>
+      <section id="skills" class="skills">
+        <h2><span class="couleur">#</span>Skills</h2>
+        <div class="texte-afficher i-texte-2">
+          <i class="fa-brands fa-html5"><p>HTML</p></i>
+          <i class="fa-brands fa-css3"><p>CSS</p></i>
+          <i class="fa-brands fa-js"><p>JAVASCRIPT</p></i>
+          <i class="fa-brands fa-node-js"><p>NODEJS</p></i>
+          <i class="fa-brands fa-react"><p>REACT</p></i>
+          <i class="fa-brands fa-sass"><p>SASS</p></i>
+        </div>
+      </section>
+      <section class="portfolio" id="projects">
+        <div class="title-projects">
+          <h3><span class="couleur">#</span> Mes projets</h3>
+        </div>
+        <div id="gallery"></div>
+      </section>
+    </main>
 
-    <footer></footer>
+    <footer>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/thomas-bilbault-40a75a271"
+              >Linkedin</a
+            >
+          </li>
+          <li><a href="https://github.com/drasprast">GitHub</a></li>
+        </ul>
+      </div>
+
+      <p id="contact">Contactez moi : <a href="">bilbault.dev@gmail.com</a></p>
+
+      <p class="footer-cop">© 2023 - Thomas Bilbault. Made with ♥</p>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
