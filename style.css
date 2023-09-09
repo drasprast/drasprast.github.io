@@ -181,13 +181,12 @@ i {
 .image-portfolio {
   box-shadow: -6px -6px 52px 7px #000000;
   border-radius: 16px;
-  height: 300px;
 }
 .image-portfolio img {
-  width: 400px;
+  max-width: 400px;
   border-radius: 16px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
   aspect-ratio: 4/3;
   transition: transform 0.5s;
 }
@@ -295,7 +294,6 @@ footer {
     text-align: center;
   }
   .image-portfolio {
-    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -309,6 +307,9 @@ footer {
 @media screen and (max-width: 500px) {
   body {
     padding: 0 10px 0 10px;
+  }
+  img {
+    width: 100%;
   }
   .presentation {
     width: 100%;
