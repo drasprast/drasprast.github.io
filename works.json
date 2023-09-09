@@ -19,7 +19,7 @@
 
     {
     "title": "Kasa" ,
-    "cover": "./img/kasa.png",
+    "cover": "./img/kasa.PNG",
     "comp": ["REACT", "SASS", "ROUTING"],
     "description": "J'ai exploré le framework React ainsi que la bibliothèque React pour créer la nouvelle version du site web de Kasa, qui propose des locations immobilières. Au cours de ce projet, j'ai acquis une compréhension approfondie des composants fonctionnels, de l'utilisation des props, et j'ai effectué plusieurs manipulations de l'état (state). De plus, j'ai pris en charge la conception CSS du site en utilisant SASS avec la syntaxe SCSS.",
     "github": "https://github.com/drasprast/Projet_6.git"
